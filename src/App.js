@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet';
+import Home from './components/home/Home';
 function App() {
-  const name="Rahul";
   return (
     
     <div className="App">
-      <Greet></Greet>
+      <Home />
     </div>
   );
 }
